@@ -8,7 +8,6 @@
         body {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
             min-height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
@@ -23,14 +22,18 @@
             max-height: 80px;
         }
 
+        .container {
+            flex: 1; /* Pushes footer down */
+        }
+
         .footer {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 50px; /* External spacing between footer and body content */
             padding: 20px;
             background-color: white;
             font-size: 16px;
+            margin-top: 50px; /* External separation */
         }
 
         .footer-logo {
@@ -41,7 +44,6 @@
         .footer a {
             text-decoration: none;
         }
-
     </style>
 </head>
 <body>
