@@ -1,35 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odds Fetcher</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 0;
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            text-align: center;
             padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #0F5D75;
-            color: white;
-            padding: 10px 0;
-            position: relative;
-            text-align: center;
-            margin-top: 20px;
-        }
-        footer img {
-            height: 40px;
-            vertical-align: middle;
-        }
-        footer a {
-            color: white;
-            text-decoration: none;
-            margin-left: 5px;
         }
     </style>
 </head>
@@ -52,15 +38,14 @@
                     limit: "5"
                 };
             </script>
-            <script src="https://widgets.oddspedia.com/js/widget/init.js?widgetId=oddspediaSureBetsWidgetLimit5OddsType1Width0" async></script>
+            <a href="https://oddspedia.com" target="_blank" rel="nofollow">
+                Powered by Oddspedia
+            </a>
+            <script 
+                src="https://widgets.oddspedia.com/js/widget/init.js?widgetId=oddspediaSureBetsWidgetLimit5OddsType1Width0" 
+                async>
+            </script>
         </div>
     </div>
-
-    <footer>
-        <a href="https://oddspedia.com" target="_blank" rel="nofollow">
-            <img src="assets/logo-oddspedia-dark.svg" alt="Oddspedia Logo">
-            Data powered by Oddspedia
-        </a>
-    </footer>
 </body>
 </html>
