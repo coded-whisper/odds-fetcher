@@ -23,18 +23,18 @@
 
         .footer a {
             text-decoration: none;
-            color: #1e90ff;
-        }
-
-        .oddspedia-footer {
-            display: flex;
-            justify-content: center;
+            color: inherit;
+            display: inline-flex;
             align-items: center;
-            gap: 10px;
+            gap: 5px;
         }
 
-        .oddspedia-footer img {
-            height: 20px;
+        .footer .oddspedia-logo {
+            background: url('assets/logo-oddspedia-dark.svg') no-repeat;
+            background-size: contain;
+            width: 70px;
+            height: 14px;
+            display: inline-block;
         }
     </style>
 </head>
@@ -62,18 +62,9 @@
     </div>
 
     <footer class="footer">
-        <div class="oddspedia-footer">
-            <span>Powered by</span>
-            <a href="https://oddspedia.com" target="_blank" rel="nofollow">
-                <img src="assets/logo-oddspedia-dark.svg" alt="Oddspedia Logo">
-            </a>
-        </div>
-        <div class="oddspedia-footer">
-            <span>Data powered by</span>
-            <a href="https://oddspedia.com" target="_blank" rel="nofollow">
-                <img src="assets/logo-oddspedia-dark.svg" alt="Oddspedia Logo">
-            </a>
-        </div>
+        <a href="https://oddspedia.com" target="_blank" rel="nofollow">
+            Data powered by <span class="oddspedia-logo"></span>
+        </a>
     </footer>
 </body>
 </html>
